@@ -1,0 +1,202 @@
+/* COLORS PALETTE
+
+Darkest
+    22223b - Navy blue
+    4a4e69
+    9a8c98 - Soft brown
+    c9ada7
+    f2e9e4 - Cream
+Lightest
+*/
+
+
+
+Color Palette{
+    color:#22223b; 
+    color:#4a4e69;
+    color:#9a8c98;
+    color:#c9ada7;
+    color:#f2e9e4;
+}
+
+body{
+    background-color: #4a4e69;
+    margin: 0;
+    height: 100%;
+    overflow:hidden;
+}
+
+#TopBar{
+    height: 50px;
+    width: 100%;
+    background-color: #22223b;
+    position: fixed;
+    z-index: 100;
+}
+
+.TopBarObject{
+    display: inline-block;
+    width: 75px;
+    margin-left: 2%;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    left: 73%;
+    
+    :hover{
+        color: #c9ada7;
+    }
+}
+
+.ContainerImage{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+#PortfolioImage{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#TitleSection{
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    position: relative;
+    right: 450px;
+}
+
+#BodyParagraphSection{
+    width: 500px;
+    height: 750px;
+    background: #22223b;
+position: relative;
+left: 70%;
+bottom: 300px;
+display: inline-block;
+}
+
+#ProjectSection{
+height: 500px;
+width: 100%;
+
+position: relative;
+top: 100px;
+}
+
+.Projects{
+    display: inline-block;
+    position: relative;
+    left: 110px;
+
+    margin: 20px;
+    width: 450px;
+    height: 450px;
+}
+
+#BodyParagraphSection2{
+    width: 500px;
+    height: 750px;
+    background: #22223b;
+position: relative;
+left: 5%;
+top: 100px;
+display: inline-block;
+}
+
+#BodyParagraphSection3{
+    width: 1700px;
+    height: 750px;
+    background: #22223b;
+position: relative;
+left: 7%;
+top: 100px;
+display: inline-block;
+}
+
+#BodyParagraphA{
+    font-size: 15px;
+    line-height: 2;
+    word-spacing: 4px;
+
+    padding: 20px;
+    position: relative;
+    top: 50px;
+}
+
+.AestheticFooter{
+    background: #f2e9e4;
+    width: 100%;
+    height: 25px;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.LeaderText{
+    font-size: 75px;
+    text-align: center;
+    display: inline;
+    color: #f2e9e4;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px #4a4e69;
+
+    
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+.Static{
+position: absolute;
+}
+
+.SubHeadingText{
+    font-size: 25px;
+    text-align: center;
+    display: inline;
+    color: #f2e9e4;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px #4a4e69;
+
+    position: relative;
+    top: 25px;
+    left: 15%;
+}
+
+.TextType1{
+    color: #f2e9e4;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.TextType2{
+    color: #f2e9e4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+::-webkit-scrollbar{
+    width: 7px;
+
+}
+
+::-webkit-scrollbar-track{
+    background: #22223b;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background: #f2e9e4;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #9c9688;
+}
